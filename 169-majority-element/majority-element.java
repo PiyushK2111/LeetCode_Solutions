@@ -7,9 +7,9 @@ class Solution {
                 counter=num;
             }
             if(num==counter){
-                count++;
+                count+=1;
             }else{
-                count--;
+                count-=1;
             }
         }
         return counter;
