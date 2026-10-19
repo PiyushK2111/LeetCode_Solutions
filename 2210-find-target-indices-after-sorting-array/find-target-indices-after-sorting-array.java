@@ -4,7 +4,7 @@ class Solution {
         for(int x:nums){
             if(x<target){
                 less++;
-            }else if(x<=target){
+            }else if(x==target){
                 equal++;
             }
         }
